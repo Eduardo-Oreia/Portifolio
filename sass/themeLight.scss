@@ -1,0 +1,143 @@
+.light{
+    background: $white;
+    color: $secundary;
+}
+
+.light .menu-container{
+    background-color: #d5dddfcd;
+    .menu-btn{
+        a{
+            &:hover{
+                color: $primary;
+            }
+            color: $secundary;
+        }
+    }
+}
+.light  .colum1{        
+    h5{
+        color: $secundary;
+    }
+}
+.light .colum3{
+    .roll-down{
+        p{
+            color: $secundary;
+        }
+        .fa-solid{
+            color: $secundary;
+        }
+    }
+}
+
+// --------------- icons ---------------
+
+.light .box-icon{
+    a{
+        color: $secundary;
+        &:hover{
+            color: $geyser;
+        }
+    }
+}
+
+// --------------- colum 2 ---------------
+
+.light .my-photo-container{
+    background: $gradientLigth;
+}
+
+// --------------- about ---------------
+
+.light .title{
+    h4{
+        color: $secundary;
+    }
+    h2{
+        color: $primary;
+    }
+}
+
+.light .info-container{
+    .my-photo-about{
+        background: $white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.322);
+    }
+}
+
+.light .info-about{
+    .quality-container{
+        .card-quality{
+            background-color: $white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.322);
+            i{
+                font-size: 1.6rem;
+                color: $primary;
+            }
+            h5{
+                color: $secundary;
+                font-size: 1.8rem;
+            }
+            p{
+                color: $secundary;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+// --------------- skills ---------------
+
+.light .title-skill-column{
+    h4{
+        color: $primary;
+    }
+}
+
+.light .skills-column{
+    background: $white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.322);
+}
+
+.light .quality-column{
+    background: $white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.322);
+}
+
+.light .skills-grid{
+    .skills-icons{
+        h5{
+            color: $secundary;
+        }
+    }
+}
+
+.light .box-works{
+    background-color: $white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.322);
+    h5{
+        color: $secundary;
+    }
+}
+
+// --------------- footer ---------------
+
+.light .footer{
+    .contact-container{
+        .box-contact{
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.322);
+            i{
+                color: $secundary;
+            }
+            h5{
+                transition: 300ms ease-in;
+                cursor: pointer;
+                color: $primary;
+                margin-top: 0.5rem;
+                &:hover{
+                    color: $geyser;
+                }
+            }
+        }
+    }
+}
